@@ -32,13 +32,15 @@
 }
 
 .btn-success, .btn-success:hover, .btn-success:active, .btn-success:focus {
-    background-color: var(--white);
+    background-color: var(--black);
     border-color: var(--white);
-    color: var(--black); /* Texte noir sur fond blanc */
+    color: var(--white); /* Texte noir sur fond blanc */
 }
 
 .btn-success {
+	background-color: var(--black);
     box-shadow: 0 0.125rem 0.25rem 0 var(--transparent-white);
+	color: var(--white); 
 }
 
 .btn-success:focus {

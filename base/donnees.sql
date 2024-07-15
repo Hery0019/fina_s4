@@ -1,5 +1,7 @@
 insert into admin(e_mail,mdp) values ('garage@gmail.com','admin');
 
+insert into client(e_mail,matricule,type_voiture) values ('client@gmail.com','1234 TBA','legere');
+
 insert into service(nom_service, durre, prix_service) values ('Reparation simple',60,150000),
                                                               ('Reparation standard',120,250000),
                                                               ('Reparation complexe',480,800000),

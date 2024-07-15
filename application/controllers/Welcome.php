@@ -9,7 +9,19 @@ class Welcome extends CI_Controller {
     }
 
 	public function index () {
-		$this->load->view('index');
+		$data = array(
+			'content' => 'pages/insertion_client',
+			'error' => false
+		);
+		$this->load->view('index', $data);
+	}
+
+	public function se_connecter () {
+		$data = array(
+			'content' => 'pages/connect_client',
+			'error' => false
+		);
+		$this->load->view('index', $data);
 	}
 
 }

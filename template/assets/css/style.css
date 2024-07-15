@@ -6,8 +6,14 @@
     --white: #FFFFFF;
     --transparent-white: rgba(255, 255, 255, 0.4);
 
-    --input-focus-border: darkgrey;
+    --input-focus-border: rgb(29, 20, 20);
+	
+    /* --background-image: url('../img/backgrounds/cars.png'); */
 }
+body {
+	background-color: rgba(95, 95, 95, 0.2);
+}
+
 
 .fs-0-5em {
     font-size: .5em;
